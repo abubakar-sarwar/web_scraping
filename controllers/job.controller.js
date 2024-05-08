@@ -124,6 +124,7 @@ const scrapJob = async (req, res) => {
       });
     }
 
+    // Puppeteer code
     // const browser = await puppeteer.launch();
     // const page = await browser.newPage();
     // await page.goto(pageURL);
